@@ -1,0 +1,46 @@
+*{
+  font-family: "Inria Sans", system-ui;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body,html{
+  font-family: "Inria Sans", system-ui;
+  overflow-x: hidden;
+  /* height: 2000px; */
+}
+a{
+  text-decoration: none;
+}
+h1,h2, h3,h4{
+  font-family: "Inria Sans", system-ui;
+}
+p,li,label{
+  font-family: "Inria Sans", system-ui;
+}
+.other-footer-links a{
+color: black;
+padding: 10px;
+}
+.icon{
+  color: black;
+  
+}
+.inputone{
+  display: flex;
+  gap: 1rem;
+  
+}
+.inputone input{
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.footer-btn{
+  margin-top: 2rem;
+}
+
+
+

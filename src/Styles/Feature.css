@@ -1,0 +1,22 @@
+.feature-section{
+    background: url(../Assets/featureimage.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    height: 40rem;
+}
+
+.feature-section .second-feature {
+    width: 50%;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    background:rgb(33, 37, 41);
+}
+
+@media screen and (max-width:768px) {
+    .feature-section .second-feature{
+        width: 100%;
+    }
+}

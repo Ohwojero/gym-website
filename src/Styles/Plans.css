@@ -1,0 +1,30 @@
+article{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 5px;
+
+}
+.planCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.join-section{
+    background: linear-gradient(to right, rgba(5, 10, 35, 0.8), rgba(5, 10, 35, 0.6)), url(../Assets/joinimage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:600px){
+    .planCard{
+        margin-left: 8rem;
+        margin: 2rem;
+    }
+}
+

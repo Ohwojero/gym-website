@@ -1,0 +1,6 @@
+header{
+    background: linear-gradient(to right, rgba(5, 10, 35, 0.8), rgba(5, 10, 35, 0.6)), url(../../src/Assets/headerimage.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
